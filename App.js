@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
+//custom components
 import { TextBox }  from './components/TextBox'; 
 import {ClickCounter} from './components/ClickCounter';
 
@@ -13,7 +14,7 @@ export default function App() {
       <TextBox color="green" size={24} text="Custom Component" />
       <TextBox color="red" size={12} text="Custom Text 2" />
       <ClickCounter/>
-
+      <ClickCounter/>
     </View>
   );
 }

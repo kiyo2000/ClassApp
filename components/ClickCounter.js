@@ -5,8 +5,8 @@ export const ClickCounter = (props) =>{
     const [click, updateClick] = useState(0); // Declare a click variable. updateclick is a function. useState() is React-built-in hook/function.
     return(
         <View>
-            <TouchableOpacity onPress={ () => { updateClick( click +1  ) } } style={styles.button}>
-                 <Text style={style.text}>I've been clicked {click}</Text>
+            <TouchableOpacity onPress={ () => { updateClick( click + 1 ) } } style={styles.button}>
+                 <Text style={styles.text}>I've been clicked {click}</Text>
             </TouchableOpacity>
         </View> 
     )    
